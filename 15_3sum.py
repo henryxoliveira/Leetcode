@@ -44,7 +44,7 @@ class Solution:
                     while left < right and nums[right] == nums[right - 1]:
                         right -= 1
                     
-                    # Move both pointers
+                    # Move both pointers l
                     left += 1
                     right -= 1
                     
